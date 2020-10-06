@@ -4,8 +4,16 @@
     padding: 20px;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
     overflow-x: scroll
+}
+
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .header__icon > .MuiSvgIcon-root {
